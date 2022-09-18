@@ -1,3 +1,8 @@
+import os
+import sys
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
 from collections import OrderedDict
 from utils import register
 import torch.nn.functional as F
